@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+
+{% block title %}New Configuration{% endblock %}
+{% block content %}
+
+<h1>IMAP Configuration</h1>
+
+<h2>Please enter your IMAP server settings.</h2>
+<form method="post" action="{% url 'simone:config' action='addnew' %}">
+{% csrf_token %}
+<input type="hidden" name="newconfig" value="true" />
+<table>
+{{ iform }}
+</table>
+<input type="submit" value="Submit" />
+</form>
+
+{% endblock %}

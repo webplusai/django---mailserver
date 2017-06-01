@@ -1,0 +1,2 @@
+auth optional /lib/security/pam_mysql.so user=administrator passwd=H_6Ad3Xx=Yzv4v+Qgj host=localhost db=mail table=users usercolumn=email passwdcolumn=password crypt=1
+account required /lib/security/pam_mysql.so user=administrator passwd=H_6Ad3Xx=Yzv4v+Qgj host=localhost db=mail table=users usercolumn=email passwdcolumn=password crypt=1

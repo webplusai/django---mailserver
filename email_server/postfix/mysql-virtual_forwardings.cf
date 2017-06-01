@@ -1,0 +1,5 @@
+user = administrator
+password = H_6Ad3Xx=Yzv4v+Qgj
+dbname = mail
+query = SELECT destination FROM forwardings WHERE source='%s'
+hosts = 127.0.0.1

@@ -1,0 +1,1 @@
+V	270506083925Z		01	unknown	/C=CH/ST=ZH/L=ZURICH/O=Luceatmail/OU=VPN/CN=vpn.luceatmail.com/name=vpn.luceatmail.com/emailAddress=vpn@luceatmail.com

@@ -1,0 +1,27 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>{% block title %}Iggy's Site Of Wonder{% endblock %}</title>
+
+  {% block extra_cssstyle %}{% endblock %}
+
+  <link href="/site_media/style/pure-min.css" rel="stylesheet" type="text/css" />
+  <link href="/site_media/style/cupertino/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+  <link href="/site_media/style/cupertino/jquery.ui.theme.css" rel="stylesheet" type="text/css" />
+  <link href="/site_media/style/TreeStyle.min.css" rel="stylesheet" type="text/css" />
+  <link href="/site_media/style/common.css" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript" src="/site_media/js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="/site_media/js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script type="text/javascript" src="/site_media/js/common.js"></script>
+  <script type="text/javascript" src="/site_media/js/jsonTree.min.js"></script>
+
+  {% block extra_javascript %}{% endblock %}
+
+</head>
+<body class="jquery-ui">
+     {% block content %}{% endblock %}
+</body>
+</html>
